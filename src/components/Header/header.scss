@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;700;900&display=swap');
+
+.header{
+    height: 8vmin;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: .6s;
+    position: fixed;
+
+
+    .logo-header{
+        display: flex;
+        width: 2%;
+    }
+
+    ul li{
+        list-style: none;
+        display: inline-block;
+        justify-content: space-around;
+        align-items: center;
+        
+        a{
+            text-decoration: none;
+            color: black;
+            margin-left: 1rem;
+            font-family: 'Exo', sans-serif;
+            position: relative;
+
+            &::before,
+                &::after {
+                    content: "";
+                    position: absolute;
+                    width: 0;
+                    height: 3px;
+                    bottom: -3px;
+                    left: 0;
+                    background-color: #758864;
+                    transition: width 0.3s ease-in-out;
+                }
+            
+                &::before {
+                    transform: scaleX(1);
+                    transform-origin: 0 100%;
+                }
+            
+                &::after {
+                    transform: scaleX(0);
+                    transform-origin: 100% 100%;
+                }
+            
+                &:hover::before {
+                    width: 100%;
+                    transform: scaleX(0);
+                    transform-origin: 0 100%;
+                }
+            
+                &:hover::after {
+                    width: 100%;
+                    transform: scaleX(1);
+                    transform-origin: 100% 100%;
+                }
+
+            &:visited{
+                color: black;
+            }
+        }
+
+
+    }
+
+
+}
+
+.header-animation{
+    background-color: #fefefe;
+    height: 4rem;
+    box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.1);
+    width: 100%;
+    display: flex;
+    position: fixed;
+    justify-content: space-around;
+    align-items: center;
+    transition: .6s;
+    z-index: 1000;
+
+    .logo-header{
+        display: flex;
+        max-width: 2%;
+    }
+}
