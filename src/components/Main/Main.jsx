@@ -11,7 +11,7 @@ const Main = () => {
     const textoArray = elemento.textContent.split('');
     elemento.textContent = '';
     textoArray.forEach((letra, i) => {
-      setTimeout(() => elemento.textContent += letra, 90 * i);
+      setTimeout(() => elemento.textContent += letra, 70 * i);
     });
   };
 
