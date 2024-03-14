@@ -25,9 +25,9 @@ const Header = () =>{
 
             <ul>
                 <li><a href="">HOME</a></li>
-                <li><a href="">SOBRE</a></li>
+                <li><a href="">ABOUT</a></li>
                 <li><a href="">SKILLS</a></li>
-                <li><a href="">CONTATO</a></li>
+                <li><a href="">CONTACT</a></li>
             </ul>
 
         </section>

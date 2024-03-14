@@ -1,4 +1,5 @@
 import { useEffect, useRef } from 'react';
+import './main.css'
 
 const Main = () => {
   const tituloRef = useRef(null);
@@ -19,6 +20,7 @@ const Main = () => {
     <section className='main-container'>
       <h1>ZAMPIERI</h1>
       <h3>SOFTWARE ENGINEER <span ref={tituloRef} className='text-decoration'> | UI UX DESIGNER | Front-End | Back-End | Database</span></h3>
+      <span className='mouse'></span>
     </section>
   );
 };

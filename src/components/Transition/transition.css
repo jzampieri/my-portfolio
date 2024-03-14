@@ -1,15 +1,13 @@
 .container-transition {
-  display: flex;
-  height: 100vh;
   width: 100%;
-  margin-top: 5rem;
-  background-color: #f8f8f8;
+  height: 100vmin;
+  background-color: #DDD9CE;
   border-radius: 2rem 2rem 0 0;
-  background-clip: border-box;
-  background-repeat: no-repeat;
-  background-size: cover;
   font-family: "Exo", sans-serif;
-  text-align: center;
-  justify-content: center;
-  text-align: center;
+}
+.container-transition .cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+  grid-template-areas: "imagem imagem imagem2 c-black" "imagem imagem c-orange imagem3" "imagem4 imagem5 imagem5 imagem6" "imagem4 imagem7 imagem8 imagem8";
 }/*# sourceMappingURL=transition.css.map */
