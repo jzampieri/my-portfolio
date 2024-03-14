@@ -1,18 +1,84 @@
 .container-transition{
     width: 100%;
-    height: 100vmin;
-    background-color: #DDD9CE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 105vmin;
     border-radius: 2rem 2rem 0 0;
     font-family: 'Exo', sans-serif;
 
     .cards{
+        width: 95%;
+        height: 100%;
         display: grid;
+        grid-template-rows: 25vh 25vh 25vh 20vh;
         grid-template-columns: repeat(4, 1fr);
         gap: 5px;
         grid-template-areas:
-        "imagem imagem imagem2 c-black" 
-        "imagem imagem c-orange imagem3" 
-        "imagem4 imagem5 imagem5 imagem6"
-        "imagem4 imagem7 imagem8 imagem8";
+        "apresentacao apresentacao imagem1 c-gray" 
+        "apresentacao apresentacao c-orange imagem2" 
+        "imagem3 imagem4 imagem4 imagem5"
+        "imagem3 imagem6 imagem7 imagem7";
+
+
+        .apresentacao{
+            width: 100%;
+            grid-area: apresentacao;
+            border: 1px solid;
+            background-image: linear-gradient(to bottom, rgba(44, 44, 44, 0.52), rgba(32, 32, 32, 0.73)), url(../../assets/pexels-kaique-rocha-97906.jpg);
+            background-size: cover;
+            color: white;
+
+            h1{
+                margin: 1rem;
+            }
+        }
+
+        .imagem1{
+            width: 100%;
+            grid-area: imagem1;
+            border: 1px solid;
+        }
+
+        .c-gray{
+            width: 100%;
+            grid-area: c-gray;
+            border: 1px solid;
+        }
+
+        .c-orange{
+            grid-area: c-orange;
+            border: 1px solid;
+        }
+
+        .imagem2{
+            grid-area: imagem2;
+            border: 1px solid;
+        }
+
+        .imagem3{
+            grid-area: imagem3;
+            border: 1px solid;
+        }
+
+        .imagem4{
+            grid-area: imagem4;
+            border: 1px solid;
+        }
+
+        .imagem5{
+            grid-area: imagem5;
+            border: 1px solid;
+        }
+
+        .imagem6{
+            grid-area: imagem6;
+            border: 1px solid;
+        }
+
+        .imagem7{
+            grid-area: imagem7;
+            border: 1px solid;
+        }
     }
 }
