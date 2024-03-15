@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@200;300&display=swap');
 
 .main-container{
+    // background: radial-gradient(circle,rgba(117, 136, 100, 0.384) 0,hsla(0,0%,100%,0) 39%),radial-gradient(circle,rgba(86, 83, 96, 0.295) 0,hsl(0, 0%, 100%) 39%);
+    // background-position-x: -30vw,30vw;
+    // background-position-y: -90vh,-85vh;
     width: 100%;
     font-family: 'IBM Plex Serif', serif;
     font-weight: 100;
@@ -14,7 +17,7 @@
     h1{
         font-size: 8rem;
         font-weight: 300;
-        color: #565360;
+        color: rgb(86, 83, 96);
     }
 
     h3{
@@ -23,7 +26,7 @@
     }
 
     .text-decoration{
-        color: #758864;
+        color: rgb(117, 136, 100);
         animation: typing 2s steps(48), blinking 0.5s infinite step-end alternate; 
 
         &::after{

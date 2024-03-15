@@ -13,14 +13,14 @@
 .main-container h1 {
   font-size: 8rem;
   font-weight: 300;
-  color: #565360;
+  color: rgb(86, 83, 96);
 }
 .main-container h3 {
   font-family: "Exo", sans-serif;
   color: #565360;
 }
 .main-container .text-decoration {
-  color: #758864;
+  color: rgb(117, 136, 100);
   animation: typing 2s steps(48), blinking 0.5s infinite step-end alternate;
 }
 .main-container .text-decoration::after {
