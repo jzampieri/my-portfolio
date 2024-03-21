@@ -30,9 +30,16 @@
 }
 .container-transition .cards .imagem1 {
   border-radius: 1rem;
-  box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.1);
   width: 100%;
   grid-area: imagem1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-transition .cards .imagem1 h1 {
+  width: 80%;
+  text-align: center;
 }
 .container-transition .cards .c-gray {
   border-radius: 1rem;
@@ -44,7 +51,7 @@
 .container-transition .cards .c-gray h1 {
   margin: 1rem;
   color: white;
-  font-weight: 200;
+  font-weight: 300;
 }
 .container-transition .cards .c-gray h2 {
   color: white;
@@ -105,6 +112,12 @@
   grid-area: imagem5;
   box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.1);
   background-color: rgb(86, 83, 96);
+}
+.container-transition .cards .imagem5 h1 {
+  color: white;
+  font-weight: 300;
+  text-align: center;
+  margin: 1rem;
 }
 .container-transition .cards .imagem6 {
   border-radius: 1rem;

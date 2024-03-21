@@ -15,7 +15,9 @@ const Transition = () => {
                     <h1>Full Stack Developer.</h1>
                     <h1>18 years old.</h1>
                 </div>
-                <div className='imagem1'></div>
+                <div className='imagem1'>
+                    <h1>Actually, i'm trying to get my first job.</h1>
+                </div>
                 <div className='c-gray'>
                     <h1>" Technology moves the world "</h1>
                     <p>Steve jobs is my inspiration.</p>
@@ -27,14 +29,13 @@ const Transition = () => {
                     <h2>- Julio Zampieri 😬</h2>
                 </div>
                 <div className='imagem2'>
-
                 </div>
                 <div className='imagem3'></div>
                 <div className='imagem4'>
                     <h1>I'm a software engineer academic at FIAP. Actually, I'm in my 3nd semester.</h1>
                 </div>
                 <div className='imagem5'>
-
+                    <h1>Weighted average: 8.32.</h1>
                 </div>
                 <div className='imagem6'>
                     <h1>See my social medias :</h1>

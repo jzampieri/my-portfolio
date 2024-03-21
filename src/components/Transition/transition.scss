@@ -38,9 +38,17 @@
 
         .imagem1{
             border-radius: 1rem;
-            box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.1);
+            box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.1);
             width: 100%;
             grid-area: imagem1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            h1{
+                width: 80%;
+                text-align: center;
+            }
         }
 
         .c-gray{
@@ -53,7 +61,7 @@
             h1{
                 margin: 1rem;
                 color: white;
-                font-weight: 200;
+                font-weight: 300;
             }
             h2{
                 color: white;
@@ -121,6 +129,13 @@
             grid-area: imagem5;
             box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.1);
             background-color: rgb(86, 83, 96);
+
+            h1{
+                color: white;
+                font-weight: 300;
+                text-align: center;
+                margin: 1rem;
+            }
         }
 
         .imagem6{
