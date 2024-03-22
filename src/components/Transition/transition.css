@@ -30,7 +30,7 @@
 }
 .container-transition .cards .imagem1 {
   border-radius: 1rem;
-  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
   width: 100%;
   grid-area: imagem1;
   display: flex;
@@ -43,7 +43,7 @@
 }
 .container-transition .cards .c-gray {
   border-radius: 1rem;
-  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
   width: 100%;
   grid-area: c-gray;
   background-color: rgb(86, 83, 96);
@@ -65,7 +65,7 @@
 }
 .container-transition .cards .c-orange {
   border-radius: 1rem;
-  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
   grid-area: c-orange;
   background-color: #FEF9F3;
 }
@@ -83,20 +83,20 @@
 }
 .container-transition .cards .imagem2 {
   border-radius: 1rem;
-  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
   grid-area: imagem2;
 }
 .container-transition .cards .imagem3 {
   border-radius: 1rem;
   grid-area: imagem3;
-  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
   background-image: url(../../assets/logo.png);
   background-size: cover;
   background-position-x: center;
 }
 .container-transition .cards .imagem4 {
   border-radius: 1rem;
-  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
   grid-area: imagem4;
   background-image: url(../../assets/vestibular-fiap-2022.png);
   background-size: cover;
@@ -110,7 +110,7 @@
 .container-transition .cards .imagem5 {
   border-radius: 1rem;
   grid-area: imagem5;
-  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
   background-color: rgb(86, 83, 96);
 }
 .container-transition .cards .imagem5 h1 {
@@ -125,12 +125,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
 }
 .container-transition .cards .imagem7 {
   border-radius: 1rem;
   grid-area: imagem7;
-  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.125);
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -140,7 +140,7 @@
   font-size: 3rem;
   padding: 1rem;
   border-radius: 0.5rem;
-  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.253);
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
   align-items: center;
   display: flex;
   transition: 0.6s;

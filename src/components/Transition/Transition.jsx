@@ -30,7 +30,8 @@ const Transition = () => {
                 </div>
                 <div className='imagem2'>
                 </div>
-                <div className='imagem3'></div>
+                <div className='imagem3'>
+                </div>
                 <div className='imagem4'>
                     <h1>I'm a software engineer academic at FIAP. Actually, I'm in my 3nd semester.</h1>
                 </div>
@@ -56,7 +57,6 @@ const Transition = () => {
                             <FaLinkedin />
                         </a>
                     </div>
-
                 </div>
             </div>
         </section>
